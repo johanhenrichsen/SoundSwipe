@@ -19,10 +19,11 @@ body {
 }
 
 #spotify-status {
-  border: 2px solid #1ed760; 
-  padding: 15px;             
-  margin-top: 20px;
-  color: #9aa0ad;
+  background-color: #121212;
+  border-radius: 12px;      
+  padding: 20px;             
+  margin-top: 20px;          
+  color: #b3b3b3; 
 }
 
 #spotify-knap {

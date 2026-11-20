@@ -137,6 +137,7 @@ async function start() {
         status.appendChild(knap);
     } else {
         const knap = document.createElement("button");
+        knap.id = "spotify-knap";
         knap.textContent = "Log ind med Spotify";
         knap.onclick = loginMedSpotify;
         status.appendChild(knap);
