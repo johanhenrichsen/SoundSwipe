@@ -1,0 +1,19 @@
+body {
+  font-family: "Luckiest Guy", cursive;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 0 15px;
+  background-color: #111318;
+  color: white;
+  text-align: center;
+}
+
+.rod {
+  color: #ff4f7b; 
+}
+
+.intro {
+ font-family: Arial, Helvetica, sans-serif, serif;
+  font-size: 16px;            
+  line-height: 1.5;            
+}
