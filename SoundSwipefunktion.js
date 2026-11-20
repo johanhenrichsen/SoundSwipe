@@ -108,6 +108,13 @@ function soegSange(soegetekst) {
 // ---------- Opstart ----------
 
 async function start() {
+    // Åbnet via localhost eller en anden port? Send videre til den registrerede adresse,
+    // så login-data (localStorage) ligger på samme origin som redirect URI'en.
+    if (window.location.origin !== new URL(SPOTIFY_REDIRECT_URI).origin) {
+        window.location.replace(SPOTIFY_REDIRECT_URI + window.location.search);
+        return;
+    }
+
     const status = document.createElement("p");
     status.id = "spotify-status";
     document.body.appendChild(status);
