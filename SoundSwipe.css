@@ -20,16 +20,18 @@ body {
 
 #spotify-status {
   background-color: #121212;
-  border-radius: 12px;      
-  padding: 20px;             
-  margin-top: 20px;          
-  color: #b3b3b3; 
-}
+  border-radius: 12px;       
+  padding: 20px;         
+  margin-top: 20px;         
+  color: #b3b3b3;  
 
-#spotify-knap {
-  border: 2px solid #1ed760; 
-  padding: 12px 24px;       
-  font-size: 15px;      
-  font-weight: bold;         
-  color: #1ed760; 
+}
+#spotify-status button {
+  background-color: #1ed760; 
+  color: black;             
+  border: none;
+  border-radius: 500px;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: bold;
 }
