@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundSwipe – Swipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/faelles.css">
+    <link rel="stylesheet" href="css/swipe.css">
+</head>
+<body>
+    <!-- Knapper i hjørnerne -->
+    <a href="index.html" id="tilbage-knap" class="hjoerne-knap">← Forside</a>
+    <button type="button" id="logud-knap" class="hjoerne-knap" hidden>Log ud</button>
+
+    <h1>Sound<span class="rod">Swipe</span></h1>
+
+    <!-- Swipe-området: sangkortet fyldes af js/swipe.js -->
+    <div id="kort"></div>
+    <button id="knap-nej" class="swipe-knap">✖</button>
+    <button id="knap-ja" class="swipe-knap">♥</button>
+    <p id="taeller"></p>
+
+    <!-- Vises når alle sange er swipet -->
+    <div id="playlist"></div>
+
+    <script src="js/indstillinger.js"></script>
+    <script src="js/spotify-login.js"></script>
+    <script src="js/spotify-api.js"></script>
+    <script src="js/swipe.js"></script>
+</body>
+</html>

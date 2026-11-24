@@ -1,0 +1,13 @@
+/* =============================================================
+   forside.css
+   Kun til forsiden (index.html). Bruger farverne fra faelles.css.
+   ============================================================= */
+
+/* Den mørke boks med start-knappen */
+#start-boks {
+  background-color: #121212;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  color: var(--graa-tekst);
+}

@@ -1,0 +1,48 @@
+/* =============================================================
+   faelles.css
+   Design som begge sider deler: farver, skrift og knapper.
+   ============================================================= */
+
+/* Farverne samlet ét sted - ret dem her, så ændres hele siden */
+:root {
+  --baggrund: #111318;
+  --kort: #1e2128;
+  --tekst: white;
+  --graa-tekst: #b3b3b3;
+  --pink: #ff4f7b;
+  --groen: #1ed760;
+}
+
+body {
+  font-family: "Luckiest Guy", cursive;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 0 15px;
+  background-color: var(--baggrund);
+  color: var(--tekst);
+  text-align: center;
+}
+
+/* Den pink del af "SoundSwipe"-logoet */
+.rod {
+  color: var(--pink);
+}
+
+/* Almindelig brødtekst */
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Standard-knap: grøn Spotify-stil */
+button {
+  background-color: var(--groen);
+  color: black;
+  border: none;
+  border-radius: 500px;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}

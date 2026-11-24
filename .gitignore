@@ -1,0 +1,7 @@
+# Indstillinger til Claude Code-plugins - ikke en del af hjemmesiden
+.impeccable/
+
+# Hemmeligheder (fx client secret) og Vercels lokale filer - må ALDRIG i git
+.env
+.env.*
+.vercel/
