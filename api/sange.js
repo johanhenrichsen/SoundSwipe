@@ -12,8 +12,9 @@
 // Svar:            { sange: [ { id, uri, navn, kunstner, billede }, ... ] }
 // =============================================================
 
-const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID || "851074342da743c78e66289c1f5ab9f4";
-const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
+// .trim() fjerner usynlige mellemrum/linjeskift, der kan komme med, når man kopierer.
+const CLIENT_ID = (process.env.SPOTIFY_CLIENT_ID || "851074342da743c78e66289c1f5ab9f4").trim();
+const CLIENT_SECRET = (process.env.SPOTIFY_CLIENT_SECRET || "").trim();
 
 // Adresser der må kalde API'et fra en anden side (Live Server når I udvikler lokalt).
 const TILLADTE_ADRESSER = ["http://127.0.0.1:5500"];
